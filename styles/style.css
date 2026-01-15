@@ -11,6 +11,15 @@
   margin: 0;
 }
 
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main > section{
+  margin-top: 130px;
+}
+
 .display{
   display: flex;
 }
@@ -22,6 +31,12 @@
 
 .bg-light{
   background-color: rgba(255, 144, 14, 0.1);
+}
+
+.section-title{
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 24px;
 }
 
 .btn{
@@ -100,12 +115,6 @@
 .our-features{
   padding-left: 74px;
   max-width: 537px;
-}
-
-.feature-title{
-  font-size: 2.8rem;
-  font-weight: 700;
-  margin-bottom: 24px;
 }
 
 .Quick-list{
