@@ -24,6 +24,16 @@
   background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn{
+  background-color: #FF900E;
+  color: white;
+  padding: 21px 24px 20px 25px;
+  font-size: 20px;
+  font-weight: 300;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+}
 .navbar{
   justify-content: space-between;
   align-items: center;
@@ -52,4 +62,32 @@
 .navbar, .banner{
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.banner-title{
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner-details{
+  line-height: 26px;
+}
+
+.banner-img{
+  width: 100%;
+}
+
+@media screen and (max-width:576px) {
+  .navbar, .nav-links{
+    flex-direction: column;
+  }
 }
